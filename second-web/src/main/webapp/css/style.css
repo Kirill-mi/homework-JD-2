@@ -1,0 +1,9 @@
+@charset "UTF-8"; 
+body{
+	background-color:grey}
+h1{color:blue; text-align:center}
+h2 {color:green; text-align:left}
+input{
+	height: 25px; width: 200px;  border: none; border-radius: 5px; margin :30px auto 30px auto;color: black; font-weight:100;}
+form{
+	height: 10px; width: 200px;  border: none; border-radius: 5px; margin: 30px auto 30px auto; color: black; font-weight:100;}

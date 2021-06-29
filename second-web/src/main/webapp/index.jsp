@@ -4,12 +4,19 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
 <title>MyNews</title>
 </head>
 <h1>"My News"</h1>
 <body>
-	<a href="create">New user</a>
-	<br>
-	<a href="validate">Sign in </a>
+	<form action="Controller" method="post">
+		<input type="hidden" name="command" value="registration">
+		 <input type="submit" value="Registration">
+	</form>
+	<br/>
+	<form action="Controller" method="post">
+		<input type="hidden" name="command" value="autorization">
+		 <input type="submit" value="Autorization">
+	</form>
 </body>
 </html>

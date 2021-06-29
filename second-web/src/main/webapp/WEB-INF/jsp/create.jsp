@@ -4,17 +4,19 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
 <title>MyNews</title>
 </head>
 <h1>"My News"</h1>
+<h2>New User registration page</h2>
 <body>
 	<form action="Controller" method="post">
-		<label>Name: <input type="text" name="name"><br />
-		</label> <label>Password: <input type="password" name="pass"><br />
-		</label> <label>Password: <input type="password" name="pass1"><br />
-		</label>
+		<label>Name:<br />  <input type="text" name="name">
+		</label> <br /> <label>Password:<br />  <input type="password" name="pass">
+		</label><br /> <label>Password:<br />  <input type="password" name="pass1">
+		</label><br /> <input type="hidden" name="command" value="REGISTRATION_NEW_USER"><br />
+		<input type="submit" value="Submit">
 
-		<button type="submit" name="type" value="create">Submit</button>
 	</form>
 </body>
 </html>
